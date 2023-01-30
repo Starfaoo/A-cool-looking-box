@@ -1,0 +1,33 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+  div{
+    width: 200px;
+    height: 150px;
+    
+    margin: 50% auto;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 18, 18);
+    background: linear-gradient(to bottom right, rgba(140, 4, 4,0), rgba(255, 10, 10,0.2) 30%,rgba(255, 10, 10,0.2)),red;
+    box-shadow: 3px 3px 5px black,
+    inset 1.5px 1.5px 2px rgba(255, 255, 255, 0.81),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.8);
+    
+  }
+
+  p{
+  
+   text-shadow: 1px 1px 0.5px black;
+   
+  }
+   p {
+    font-size: 1.125em;
+    /* 18px divided by 16 gave 1.125em */
+    color: white;
+    line-height: 6.5em;
+    text-align: center;
+  }
+  
+  background: c linear-gradient(to top left,rgba(255, 0, 0, 0.2) 30%,#c70000);
